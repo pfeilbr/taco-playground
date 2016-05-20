@@ -13,6 +13,8 @@
         element.innerHTML = 'Device Ready';
         element.className += ' ready';
 
+        //alert('hello v2')
+
         //fileDownloadExample();
 
     };
@@ -28,7 +30,7 @@
     function fileDownloadExample() {
       console.log('fileDownloadExample')
       console.log(cordova.file.documentsDirectory)
-      
+
       var fileTransfer = new FileTransfer();
       var uri = encodeURI("https://upload.wikimedia.org/wikipedia/commons/4/4a/Snow_on_the_mountains_of_Southern_California.jpg");
       var fileURL = cordova.file.documentsDirectory + 'Snow_on_the_mountains_of_Southern_California.jpg'
