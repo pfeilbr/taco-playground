@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com-moduscreate-plugins-echoswift": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        }
+    }
+}
